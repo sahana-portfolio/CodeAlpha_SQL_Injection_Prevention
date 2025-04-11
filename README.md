@@ -41,5 +41,6 @@ A professional Flask-based web application that **encrypts user credentials** an
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/sahana-portfolio/CodeAlpha_SQL_Encryption.git
+   git clone https://github.com/sahana-portfolio/CodeAlpha_SQL_Injection_Prevention.git
+
 
