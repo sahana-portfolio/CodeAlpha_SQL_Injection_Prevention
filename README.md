@@ -5,7 +5,6 @@ A professional Flask-based web application that **encrypts user credentials** an
 ---
 
 ## 🚀 Features
-
 - 🔑 **Secure User Login Form**
 - 🔐 **AES Encryption** of passwords
 - ☁️ **Cloud Database Storage** with SQLite
@@ -16,9 +15,7 @@ A professional Flask-based web application that **encrypts user credentials** an
 ---
 
 ## 📸 Screenshots
-
 ### ✅ Secure UI + Attack-Prevention Demo
-
 ![App Screenshot](screenshot.png)
 
 > Shows login form, confirmation message, and safe storage of even SQL injection attempts as plain text — proving **protection**!
@@ -27,13 +24,13 @@ A professional Flask-based web application that **encrypts user credentials** an
 
 ## 🧠 Tech Stack
 
-| Technology | Purpose             |
-|------------|---------------------|
-| Python     | Core Programming    |
-| Flask      | Web Framework       |
-| SQLite     | Cloud Database      |
-| Cryptography | AES Encryption     |
-| HTML + CSS | Frontend (UI)       |
+| Technology  | Purpose             |
+|-------------|---------------------|
+| Python      | Core Programming    |
+| Flask       | Web Framework       |
+| SQLite      | Cloud Database      |
+| Cryptography| AES Encryption      |
+| HTML + CSS  | Frontend (UI)       |
 
 ---
 
@@ -42,5 +39,3 @@ A professional Flask-based web application that **encrypts user credentials** an
 1. Clone the repo
    ```bash
    git clone https://github.com/sahana-portfolio/CodeAlpha_SQL_Injection_Prevention.git
-
-
