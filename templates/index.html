@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SQL Injection Prevention System</title>
+</head>
+<body style="text-align:center; font-family:sans-serif; padding:20px;">
+    <h1>🔐 Secure Cloud Login System</h1>
+    
+    <form method="POST">
+        <input type="text" name="username" placeholder="Enter Username" required><br><br>
+        <input type="password" name="password" placeholder="Enter Password" required><br><br>
+        <input type="submit" value="Add User">
+    </form>
+    
+    {% if message %}
+        <p><strong>{{ message }}</strong></p>
+    {% endif %}
+
+    <h2>🧾 Stored Users (Decrypted View)</h2>
+    <table border="1" style="margin:auto;">
+        <tr><th>Username</th><th>Password</th></tr>
+        {% for user in users %}
+            <tr>
+                <td>{{ user[0] }}</td>
+                <td>{{ user[1] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
